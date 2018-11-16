@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+function $2_submenu_page() {
+	if( function_exists('acf_add_options_page') ) {
+		acf_add_options_sub_page(array(
+			'title'      => '$1',
+			'parent'     => 'edit.php?post_type=$2',
+			'capability' => 'edit_posts'
+		));
+	}
+}
+add_action('admin_menu', '$2_submenu_page');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>submenu_page</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

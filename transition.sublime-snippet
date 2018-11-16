@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+.transition(${1:all} 0.2s);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>transition</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css.less, source.css</scope>
+	<description>.transition(... 0.2s);</description>
+</snippet>

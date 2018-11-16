@@ -1,0 +1,5 @@
+{
+	"prefixOnSave": true,
+	"browsers": ["last 5 version", "not dead", "> 0.2%"],
+	"cascade": false,
+}

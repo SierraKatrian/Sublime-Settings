@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+function $3_menu_page() {
+	if( function_exists('acf_add_options_page') ) {
+
+		acf_add_options_page(array(
+			'page_title' 	=> '$1',
+			'menu_title'	=> '$1',
+			'menu_slug' 	=> '$2',
+			'capability'	=> 'edit_posts',
+			'icon_url'		=> 'dashicons-admin-tools',
+			'position'		=> 20,
+			'redirect'		=> true
+		));
+
+		acf_add_options_sub_page(array(
+			'page_title' 	=> '$1',
+			'menu_title'	=> '$1',
+			'parent_slug'	=> '$2',
+		));
+	}
+}
+add_action('admin_menu', '$3_menu_page');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>options_page</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+.flex-box();
+align-items: center;
+${1:justify-content: center;}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>flex</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css.less</scope>
+	<scope>source.css</scope>
+</snippet>

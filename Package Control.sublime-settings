@@ -1,0 +1,35 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"ACF Programmatic Fields",
+		"Alignment",
+		"All Autocomplete",
+		"Autoprefixer",
+		"BracketHighlighter",
+		"ColorPicker",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"Gulp",
+		"HTML-CSS-JS Prettify",
+		"LESS",
+		"Material Theme",
+		"npm",
+		"Package Control",
+		"PackageResourceViewer",
+		"Sass",
+		"SASS Build",
+		"SASS Snippets",
+		"SassBeautify",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeOnSaveBuild",
+		"Terminal"
+	]
+}
